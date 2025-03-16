@@ -1,5 +1,6 @@
 name:workflow
 on:push
+
 jobs:
   my-first-job:
     runs-on:ubuntu-latest
@@ -8,5 +9,5 @@ jobs:
   my-second-job:
     runs-on:ubuntu-latest
     steps:
-    `- run : echo "Bye World"
+      - run : echo "Bye World"
   
