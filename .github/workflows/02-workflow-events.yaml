@@ -4,4 +4,5 @@ jobs:
   echo:
     run: ubuntu-latest
     step: 
-      -name: echo "Show the trigger"
+      -name: Show the trigger 
+       run: echo "Show the trigger"
