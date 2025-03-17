@@ -3,4 +3,5 @@ on: push
 jobs:
   echo:
     run: ubuntu-latest
-    step: echo "Show the trigger"
+    step: 
+      -name: echo "Show the trigger"
