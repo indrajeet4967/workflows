@@ -1,0 +1,13 @@
+name: 03 - Worklow Runners
+
+on: push
+
+jobs:
+ ubunut-echo:
+  runs-on: ubunut-latest
+  steps:
+   -name: Show OS
+   run: | 
+      echo "This running on ubunut-latest"
+      echo "OS : $RUNNER_OS"
+    
