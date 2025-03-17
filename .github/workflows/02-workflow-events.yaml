@@ -1,0 +1,54 @@
+---
+name: workflow-events
+on: push
+jobs:
+  echo:
+    run: ubuntu-latest
+    step: echo "Show the trigger"
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
