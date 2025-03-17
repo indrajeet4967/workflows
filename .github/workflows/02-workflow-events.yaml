@@ -1,4 +1,3 @@
----
 name: workflow-events
 on: push
 jobs:
