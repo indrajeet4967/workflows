@@ -7,6 +7,5 @@ jobs:
   runs-on: ubunut-latest
   steps:
    - name: Show OS
-     run: |
-       echo "OS: $RUNNER_OS"
-       echo "OS: $RUNNER_OS"
+     run: 
+        echo "OS: $RUNNER_OS"
